@@ -1,4 +1,4 @@
-# Get Username
+# Get Username PWIS
 $user = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $user = $user.split("\")
 $user = $user[1]
